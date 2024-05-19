@@ -2,11 +2,11 @@
 
 
 import Network.HTTP.Simple
-import Data.Aeson
+import Data.Aeson (FromJSON)
 import Data.Aeson.Lens (_Object)
 import Control.Lens (preview)
 import Data.Aeson (Value, Object)
-import Data.ByteString.Char8 (pack)
+import Data.ByteString.Char8 (pack, ByteString)
 
 
 main :: IO ()
@@ -38,7 +38,9 @@ getFromFatSecret method = do
                 $ parseRequest_ apiEndpoint
 
     -- Send the request and get the response
-    response <- httpJSON request
+    -- response <- httpJSON request
+
+    response <- httpJSON request :: IO (Response Value)
 
     -- Extract the JSON body from the response
     let jsonBody = getResponseBody response
