@@ -58,7 +58,7 @@ executable data-analysis
     import:           warnings
 
     -- .hs or .lhs file containing the Main module.
-    main-is:          Main.hs
+    main-is:          FatSecretAPI.hs
 
     -- Modules included in this executable, other than Main.
     -- other-modules:
@@ -67,8 +67,12 @@ executable data-analysis
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.17.2.1,
-		              csv
+    build-depends:    base >=4.7 && <5,
+		              http-conduit,
+                      aeson,
+                      lens-aeson,
+                      lens,
+                      bytestring,
 
     -- Directories containing source files.
     hs-source-dirs:   app
