@@ -2,12 +2,14 @@
 module Main where
 
 import SerpAPI
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import Prelude hiding (print)
+import Prelude (print)
 
-
-main :: IO (Maybe Data.Aeson.Types.Internal.Value)
+main :: IO ()
 main = do
-    SerpAPI.getFromSerpApi "fruits"
+    res <- getFromSerpApi "restaurants in New York"
+    print res
+
 
 
 -- The main function of the application

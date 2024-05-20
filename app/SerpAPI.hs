@@ -10,8 +10,6 @@ import Network.HTTP.Simple
 import Data.Aeson ( Value )
 import qualified Data.ByteString.Char8 as B
 
-print :: IO ()
-print = putStrLn "Hello, RANA JI!"
 
 -- Define the API endpoint
 apiEndpoint :: String
