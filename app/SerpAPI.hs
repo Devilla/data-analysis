@@ -10,9 +10,12 @@ import Network.HTTP.Simple
 import Data.Aeson ( Value )
 import qualified Data.ByteString.Char8 as B
 
+print :: IO ()
+print = putStrLn "Hello, RANA JI!"
+
 -- Define the API endpoint
 apiEndpoint :: String
-apiEndpoint = "https://serpapi.com/search.json"
+apiEndpoint = "https://serpapi.com/search.json?engine=google_maps&q=fruits&type=search"
 
 -- Function to make a GET request to the SerpApi
 -- Function to make a GET request to the SerpApi
@@ -28,7 +31,6 @@ getFromSerpApi query = do
 
     -- Extract the JSON body from the response
     let jsonBody = getResponseBody response
-
     -- Return the JSON body
     return $ Just jsonBody
 
