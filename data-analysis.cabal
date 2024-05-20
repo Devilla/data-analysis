@@ -58,7 +58,8 @@ executable data-analysis
     import:           warnings
 
     -- .hs or .lhs file containing the Main module.
-    main-is:          FatSecretAPI.hs
+    main-is:          Main.hs
+    other-modules:    SerpAPI
 
     -- Modules included in this executable, other than Main.
     -- other-modules:
@@ -73,6 +74,10 @@ executable data-analysis
                       lens-aeson,
                       lens,
                       bytestring,
+                      random,
+                      time,
+                      authenticate-oauth,
+                      text
 
     -- Directories containing source files.
     hs-source-dirs:   app

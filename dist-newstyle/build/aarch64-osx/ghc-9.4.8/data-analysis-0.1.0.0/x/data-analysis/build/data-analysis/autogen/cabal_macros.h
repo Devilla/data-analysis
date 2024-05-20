@@ -10,16 +10,26 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_data_analysis */
-/* package aeson-2.2.1.0 */
+/* package aeson-2.2.2.0 */
 #ifndef VERSION_aeson
-#define VERSION_aeson "2.2.1.0"
+#define VERSION_aeson "2.2.2.0"
 #endif /* VERSION_aeson */
 #ifndef MIN_VERSION_aeson
 #define MIN_VERSION_aeson(major1,major2,minor) (\
   (major1) <  2 || \
   (major1) == 2 && (major2) <  2 || \
-  (major1) == 2 && (major2) == 2 && (minor) <= 1)
+  (major1) == 2 && (major2) == 2 && (minor) <= 2)
 #endif /* MIN_VERSION_aeson */
+/* package authenticate-oauth-1.7 */
+#ifndef VERSION_authenticate_oauth
+#define VERSION_authenticate_oauth "1.7"
+#endif /* VERSION_authenticate_oauth */
+#ifndef MIN_VERSION_authenticate_oauth
+#define MIN_VERSION_authenticate_oauth(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  7 || \
+  (major1) == 1 && (major2) == 7 && (minor) <= 0)
+#endif /* MIN_VERSION_authenticate_oauth */
 /* package base-4.17.2.1 */
 #ifndef VERSION_base
 #define VERSION_base "4.17.2.1"
@@ -70,6 +80,36 @@
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 3)
 #endif /* MIN_VERSION_lens_aeson */
+/* package random-1.2.1.2 */
+#ifndef VERSION_random
+#define VERSION_random "1.2.1.2"
+#endif /* VERSION_random */
+#ifndef MIN_VERSION_random
+#define MIN_VERSION_random(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 1)
+#endif /* MIN_VERSION_random */
+/* package text-2.0.2 */
+#ifndef VERSION_text
+#define VERSION_text "2.0.2"
+#endif /* VERSION_text */
+#ifndef MIN_VERSION_text
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  0 || \
+  (major1) == 2 && (major2) == 0 && (minor) <= 2)
+#endif /* MIN_VERSION_text */
+/* package time-1.12.2 */
+#ifndef VERSION_time
+#define VERSION_time "1.12.2"
+#endif /* VERSION_time */
+#ifndef MIN_VERSION_time
+#define MIN_VERSION_time(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  12 || \
+  (major1) == 1 && (major2) == 12 && (minor) <= 2)
+#endif /* MIN_VERSION_time */
 
 /* tool gcc-15.0.0 */
 #ifndef TOOL_VERSION_gcc
