@@ -1,0 +1,11 @@
+{
+    "Below 10°C": {
+        "preferred_foods": ["Soup", "Stew", "Hot Drinks"]
+    },
+    "10°C to 25°C": {
+        "preferred_foods": ["Soup", "Stew", "Hot Drinks", "Salad", "Cold Drinks", "Light Meals"]
+    },
+    "Above 25°C": {
+        "preferred_foods": ["Salad", "Cold Drinks", "Light Meals"]
+    }
+}
