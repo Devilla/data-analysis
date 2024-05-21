@@ -1,11 +1,18 @@
+{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
+{-# HLINT ignore "Redundant return" #-}
 
 module Main where
 
 import SerpAPI ( getFromSerpApi )
-import HighLevel
-import Prelude hiding (print)
+import Prelude
 import qualified Data.Aeson as Aeson
 import qualified Data.ByteString.Lazy as BL
+
+jsonFile :: FilePath
+jsonFile = "data/meal_preferences.json"
+
+getJSON :: IO BL.ByteString
+getJSON = BL.readFile jsonFile
 
 main :: IO ()
 main = do
@@ -15,26 +22,9 @@ main = do
     let json = Aeson.encode res
 
     -- Write the JSON ByteString to a file
-    BL.writeFile "data/output.json" json
+    BL.writeFile "data/real_time_output.json" json
 
-    -- Read the high-level data from the files
-    highLevelMain <- readPreferences "data/food_preferences.json"
-    ingredients <- readIngredients "data/kitchen_ingredients.json"
-    preferences <- readPreferences "data/food_preferences.json"
-
-    let aggregatedData = aggregateData highLevelMain ingredients preferences
-
-    adjustedData <- adjustForRealTime aggregatedData
-
-    print adjustedData
-
--- Print the aggregated data
-
-print :: AggregatedData -> IO ()
-print (AggregatedData meanCalories modeCuisine) = do
-    putStrLn $ "Mean calories: " ++ show meanCalories
-    putStrLn $ "Mode cuisine: " ++ modeCuisine
-
-
--- The main function of the application
+    -- Read the JSON ByteString from the file
+    getJSON >>= \jsonFromFile -> do
+        print jsonFromFile
 

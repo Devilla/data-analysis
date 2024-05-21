@@ -1,13 +1,13 @@
 -- Import necessary libraries
 module HighLevel where
 
-import Data.Time.Clock
-import Data.Time.Calendar
-import Network.HTTP.Simple
-import Data.Aeson
-import qualified Data.ByteString.Lazy as B
-import Data.Maybe ( catMaybes, fromMaybe, isNothing )
-import Data.List (genericLength)
+-- import Data.Time.Clock
+-- import Data.Time.Calendar
+-- import Network.HTTP.Simple
+-- import Data.Aeson
+-- import qualified Data.ByteString.Lazy as B
+-- import Data.Maybe ( catMaybes, fromMaybe, isNothing )
+-- import Data.List (genericLength)
 import Data.Time
 
 -- Define data types
@@ -112,10 +112,11 @@ readLog = undefined
 -- Define main function
 main :: IO ()
 main = do
-    preferences <- readPreferences "preferences.txt"
-    ingredients <- readIngredients "ingredients.txt"
-    log <- readLog "log.txt"
-    let meals = suggestMeals $ aggregateData (applyRules preferences meals) ingredients log
-    displaySuggestions meals
-    meal <- getMealChoice
-    updateFiles "ingredients.txt" "log.txt" meal
+    print "Hello, World!"
+    -- preferences <- readPreferences "preferences.txt"
+    -- ingredients <- readIngredients "ingredients.txt"
+    -- log <- readLog "log.txt"
+    -- let meals = suggestMeals $ aggregateData (applyRules preferences meals) ingredients log
+    -- displaySuggestions meals
+    -- meal <- getMealChoice
+    -- updateFiles "ingredients.txt" "log.txt" meal
