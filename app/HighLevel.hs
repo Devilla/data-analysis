@@ -3,12 +3,12 @@ module HighLevel where
 
 import Data.Time.Clock
 import Data.Time.Calendar
-import Network.HTTP
+import Network.HTTP.Simple
 import Data.Aeson
 import qualified Data.ByteString.Lazy as B
-import Data.Maybe (catMaybes, fromMaybe)
+import Data.Maybe ( catMaybes, fromMaybe, isNothing )
 import Data.List (genericLength)
-import Data.Maybe (isNothing)
+import Data.Time
 
 -- Define data types
 data Meal = Meal { name :: Maybe String, ingredients :: [Maybe String], calories :: Maybe Int, cuisine :: Maybe String } deriving (Show)
