@@ -18,11 +18,11 @@ main = do
     BL.writeFile "data/output.json" json
 
     -- Read the high-level data from the files
-    highLevelMain <- readPreferences "data/preferences.json"
-    ingredients <- readIngredients "data/ingredients.json"
-    log <- readLog "data/log.json"
+    highLevelMain <- readPreferences "data/food_preferences.json"
+    ingredients <- readIngredients "data/kitchen_ingredients.json"
+    preferences <- readPreferences "data/food_preferences.json"
 
-    let aggregatedData = aggregateData highLevelMain ingredients log
+    let aggregatedData = aggregateData highLevelMain ingredients preferences
 
     adjustedData <- adjustForRealTime aggregatedData
 
