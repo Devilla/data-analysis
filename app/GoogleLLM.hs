@@ -32,7 +32,7 @@ generateContent :: IO ByteString
 generateContent = do
   manager <- newManager tlsManagerSettings
   initReq <- parseRequest "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyBY8TKtP7eOsqPg8M-4YK5bz3mQB_n7m4I"
-  let content = Content [Parts [Part "Recommend a meal for Emily who's 25 years old girl from Newyork?"]]
+  let content = Content [Parts [Part "Please provide the billboards top 10 artists this week, their hometown and one local cuisine type . Please return all this in the format of a data list like [artist,hometown,cuisine]"]]
       reqBody = RequestBodyLBS (encode content)
       headers = [("Content-Type", "application/json")]
       request = initReq { method = methodPost, requestBody = reqBody, requestHeaders = headers }

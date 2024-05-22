@@ -60,7 +60,6 @@ executable data-analysis
     -- .hs or .lhs file containing the Main module.
     main-is:          Main.hs
     other-modules:    SerpAPI,
-                      HighLevel,
                       GetWeather,
                       ParsePreferences,
                       BillboardAPI,
@@ -86,7 +85,7 @@ executable data-analysis
                       http-types,
                       http-client,
                       http-client-tls
-                      
+
     -- Directories containing source files.
     hs-source-dirs:   app
 

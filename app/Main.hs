@@ -9,8 +9,9 @@ import Prelude
 import qualified Data.Aeson as Aeson
 import qualified Data.ByteString.Lazy as BL
 import GetWeather ( Weather(..), Location(..), Current(..), getWeatherData )
-import BillboardAPI ( getBillboardData )
+-- import BillboardAPI ( getBillboardData )
 import ParsePreferences ( FoodPreferences(..), getFoodPreferences )
+import GoogleLLM ( generateContent )
 
 
 -- import GoogleLLM (generateContent)
@@ -31,12 +32,12 @@ main = do
             putStrLn $ "Current Temperature in New York: " ++ (show $ temp_c $ current w)
         Nothing -> putStrLn "Could not get weather data"
     
-    -- Request for the Billboard top 10 artists and their hometown
-    resArtists <- getFromSerpApi "Billboard top 10 artists and their hometown"
-    -- Convert resArtists into a JSON ByteString
-    let jsonArtists = Aeson.encode resArtists
-    -- Write the JSON ByteString to a file
-    BL.writeFile "data/top_artists.json" jsonArtists
+    -- -- Request for the Billboard top 10 artists and their hometown
+    -- resArtists <- getFromSerpApi "Billboard top 10 artists and their hometown"
+    -- -- Convert resArtists into a JSON ByteString
+    -- let jsonArtists = Aeson.encode resArtists
+    -- -- Write the JSON ByteString to a file
+    -- BL.writeFile "data/top_artists.json" jsonArtists
 
     -- Get food preferences
     prefs <- getFoodPreferences
@@ -48,10 +49,10 @@ main = do
         Nothing -> putStrLn "Could not get food preferences"
 
 
-    result <- getBillboardData
-    case result of
-        Just v  -> print v
-        Nothing -> putStrLn "Error fetching data"
+    -- result <- getBillboardData
+    -- case result of
+    --     Just v  -> print v
+    --     Nothing -> putStrLn "Error fetching data"
 
         -- -- Request for the current time in New York
     -- resTime <- getFromSerpApi "current Time in New York in 24 hour format"    
@@ -68,6 +69,6 @@ main = do
 
 
     -- Generate content using the Google LLM API
-    -- generateContent >>= \content -> do
-    --     print content
+    generateContent >>= \content -> do
+        print content
         
