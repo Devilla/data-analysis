@@ -30,8 +30,8 @@ main = do
     BL.writeFile "data/real_time_output.json" json
 
     -- Read the JSON ByteString from the file
-    getJSON >>= \jsonFromFile -> do
-        print "jsonFromFile"
+    -- getJSON >>= \jsonFromFile -> do
+    --     print jsonFromFile
 
 
     -- Generate content using the Google LLM API
