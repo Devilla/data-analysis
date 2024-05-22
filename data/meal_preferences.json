@@ -1,27 +1,27 @@
-{
-    "06:00 - 10:00": {
+[
+    {   "time":"06:00 - 10:00",
         "meal": "Breakfast",
         "preferred_cuisines": ["American", "Continental"],
         "max_calories": 400
     },
-    "11:00 - 14:00": {
+    {   "time":"10:00 - 11:00",
+        "meal": "Snack",
+        "preferred_cuisines": ["Healthy", "Smoothies"],
+        "max_calories": 200
+    },
+    {   "time":"11:00 - 14:00",
         "meal": "Lunch",
         "preferred_cuisines": ["Italian", "Mexican"],
         "max_calories": 600
     },
-    "18:00 - 21:00": {
+    {   "time":"18:00 - 21:00",
         "meal": "Dinner",
         "preferred_cuisines": ["Asian", "Mediterranean"],
         "max_calories": 700
     },
-    "10:00 - 11:00": {
-        "meal": "Snack",
-        "preferred_cuisines": ["Healthy", "Smoothies"],
-        "max_calories": 200
-    },
-    "15:00 - 16:00": {
+    {   "time":"15:00 - 16:00",
         "meal": "Snack",
         "preferred_cuisines": ["Healthy", "Smoothies"],
         "max_calories": 200
     }
-}
+]

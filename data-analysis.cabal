@@ -61,7 +61,10 @@ executable data-analysis
     main-is:          Main.hs
     other-modules:    SerpAPI,
                       HighLevel,
-                      GoogleLLM
+                      GetWeather,
+                      ParsePreferences,
+                      BillboardAPI,
+                      GoogleLLM 
 
     -- Modules included in this executable, other than Main.
     -- other-modules:

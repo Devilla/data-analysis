@@ -55,6 +55,28 @@
   (major1) == 0 && (major2) == 10 && (minor) <= 10)
 #endif /* MIN_VERSION_bytestring */
 
+/* package http-client-0.7.17 */
+#ifndef VERSION_http_client
+#define VERSION_http_client "0.7.17"
+#endif /* VERSION_http_client */
+#ifndef MIN_VERSION_http_client
+#define MIN_VERSION_http_client(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  7 || \
+  (major1) == 0 && (major2) == 7 && (minor) <= 17)
+#endif /* MIN_VERSION_http_client */
+
+/* package http-client-tls-0.3.6.3 */
+#ifndef VERSION_http_client_tls
+#define VERSION_http_client_tls "0.3.6.3"
+#endif /* VERSION_http_client_tls */
+#ifndef MIN_VERSION_http_client_tls
+#define MIN_VERSION_http_client_tls(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  3 || \
+  (major1) == 0 && (major2) == 3 && (minor) <= 6)
+#endif /* MIN_VERSION_http_client_tls */
+
 /* package http-conduit-2.3.8.3 */
 #ifndef VERSION_http_conduit
 #define VERSION_http_conduit "2.3.8.3"
@@ -65,6 +87,17 @@
   (major1) == 2 && (major2) <  3 || \
   (major1) == 2 && (major2) == 3 && (minor) <= 8)
 #endif /* MIN_VERSION_http_conduit */
+
+/* package http-types-0.12.4 */
+#ifndef VERSION_http_types
+#define VERSION_http_types "0.12.4"
+#endif /* VERSION_http_types */
+#ifndef MIN_VERSION_http_types
+#define MIN_VERSION_http_types(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  12 || \
+  (major1) == 0 && (major2) == 12 && (minor) <= 4)
+#endif /* MIN_VERSION_http_types */
 
 /* package lens-5.3.2 */
 #ifndef VERSION_lens
