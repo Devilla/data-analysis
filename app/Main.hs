@@ -9,6 +9,7 @@ import Prelude
 import qualified Data.Aeson as Aeson
 import qualified Data.ByteString.Lazy as BL
 import GetWeather ( Weather(..), Location(..), Current(..), getWeatherData )
+import BillboardAPI ( getBillboardData )
 import ParsePreferences ( FoodPreferences(..), getFoodPreferences )
 
 
@@ -46,6 +47,11 @@ main = do
             putStrLn $ "Max Calories: " ++ show (max_calories p)
         Nothing -> putStrLn "Could not get food preferences"
 
+
+    result <- getBillboardData
+    case result of
+        Just v  -> print v
+        Nothing -> putStrLn "Error fetching data"
 
         -- -- Request for the current time in New York
     -- resTime <- getFromSerpApi "current Time in New York in 24 hour format"    
