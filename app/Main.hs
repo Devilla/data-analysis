@@ -10,6 +10,7 @@ import qualified Data.Aeson as Aeson
 import qualified Data.ByteString.Lazy as BL
 import GetWeather ( Weather(..), Location(..), Current(..), getWeatherData )
 import ParsePreferences ( FoodPreferences(..), getFoodPreferences )
+import GoogleLLM ( generateContent )
 
 
 -- import GoogleLLM (generateContent)
@@ -47,7 +48,7 @@ main = do
         Nothing -> putStrLn "Could not get food preferences"
 
 
-        -- -- Request for the current time in New York
+    -- -- Request for the current time in New York
     -- resTime <- getFromSerpApi "current Time in New York in 24 hour format"    
     -- -- Convert resTime into a JSON ByteString
     -- let jsonTime = Aeson.encode resTime
@@ -62,6 +63,6 @@ main = do
 
 
     -- Generate content using the Google LLM API
-    -- generateContent >>= \content -> do
-    --     print content
+    generateContent >>= \content -> do
+        print content
         
