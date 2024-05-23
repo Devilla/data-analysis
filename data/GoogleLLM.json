@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "1. Drake, Toronto, Poutine\n2. Taylor Swift, West Reading, Cheesesteak\n3. Harry Styles, Holmes Chapel, Fish and Chips\n4. Bad Bunny, San Juan, Mofongo\n5. Ed Sheeran, Halifax, Yorkshire Pudding\n6. The Weeknd, Scarborough, Peameal Bacon\n7. Billie Eilish, Los Angeles, In-N-Out Burger\n8. Lil Nas X, Lithia Springs, Fried Chicken\n9. Post Malone, Syracuse, Dinosaur BBQ\n10. Lizzo, Detroit, Coney Dog"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 40,
+    "candidatesTokenCount": 114,
+    "totalTokenCount": 154
+  }
+}

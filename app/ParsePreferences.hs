@@ -39,3 +39,5 @@ mergePreferences (Just fp1) (Just fp2) = Just FoodPreferences {
 mergePreferences fp1 Nothing = fp1
 mergePreferences Nothing fp2 = fp2
 mergePreferences _ _ = Nothing
+
+-- [Teperature] [Time] [Location] [Food] [Cuisine] [Calories] [Billboard Top Artist] [Hoemetown] [prefferences] [restrictictions]

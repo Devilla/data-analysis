@@ -1,10 +1,14 @@
 {-# LANGUAGE OverloadedStrings #-}
+{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
+{-# HLINT ignore "Use newtype instead of data" #-}
 
 module GetWeather
   ( Weather(..)
   , Location(..)
   , Current(..)
   , getWeatherData
+  , getWeather
+  , storeWeatherData
   ) where
 
 import Network.HTTP.Simple

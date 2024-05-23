@@ -16,7 +16,6 @@ apiEndpoint :: String
 apiEndpoint = "https://serpapi.com/search.json?engine=google_maps&q=fruits&type=search"
 
 -- Function to make a GET request to the SerpApi
--- Function to make a GET request to the SerpApi
 getFromSerpApi :: String -> IO (Maybe Value)
 getFromSerpApi query = do
     -- Build the request
