@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "1. Drake, Toronto, Poutine\n2. Taylor Swift, West Reading, Cheesesteak\n3. Harry Styles, Holmes Chapel, Fish and Chips\n4. Bad Bunny, San Juan, Mofongo\n5. Ed Sheeran, Halifax, Yorkshire Pudding\n6. The Weeknd, Scarborough, Peameal Bacon\n7. Billie Eilish, Los Angeles, In-N-Out Burger\n8. Lil Nas X, Lithia Springs, Fried Chicken\n9. Post Malone, Syracuse, Dinosaur BBQ\n10. Lizzo, Detroit, Coney Dog"
+            "text": "1.\tTaylor Swift\tWest Reading, Pennsylvania\tPhilly Cheesesteak\n2.\tMorgan Wallen\tSneedville, Tennessee\tBarbecue\n3.\tHarry Styles\tHolmes Chapel, Cheshire, England\tFish and Chips \n4.\tDrake\tToronto, Canada\tPoutine\n5.\tBad Bunny\tSan Juan, Puerto Rico\tMofongo \n6.\tLuke Combs\tCharlotte, North Carolina\tBBQ \n7.\tThe Weeknd\tToronto, Canada\tPeameal bacon sandwich\n8.\tEd Sheeran\tFramlingham, Suffolk, England\tSunday Roast\n9.\tJustin Bieber\tStratford, Ontario, Canada\tPoutine\n10.\tDoja Cat\tLos Angeles, California\tTacos"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 40,
-    "candidatesTokenCount": 114,
-    "totalTokenCount": 154
+    "candidatesTokenCount": 155,
+    "totalTokenCount": 195
   }
 }
