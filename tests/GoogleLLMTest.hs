@@ -4,7 +4,6 @@ import Test.Hspec
 import GoogleLLM
 import Data.Aeson
 import Data.Maybe (isJust)
-import Data.ByteString.Lazy (ByteString)
 import qualified Data.ByteString.Lazy as L
 
 main :: IO ()
