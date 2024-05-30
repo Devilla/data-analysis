@@ -73,19 +73,14 @@ executable data-analysis
 
     -- Other library packages from which modules are imported.
     build-depends:    base >=4.7 && <5,
-		              http-conduit,
+                      http-conduit,
                       aeson,
                       lens-aeson,
                       lens,
                       bytestring,
                       random,
                       time,
-                      authenticate-oauth,
-                      text,
-                      http-types,
-                      http-client,
-                      http-client-tls
-
+                      hspec       
     -- Directories containing source files.
     hs-source-dirs:   app
 
@@ -94,10 +89,22 @@ executable data-analysis
 
 test-suite GoogleLLMTest
   type:                exitcode-stdio-1.0
-  hs-source-dirs:      test
+  hs-source-dirs:      tests,
+                       app
   main-is:             GoogleLLMTest.hs
-  build-depends:       base >=4.7 && <5
-                     , hspec
-                     , GoogleLLM
+  build-depends:       base >=4.7 && <5,
+                       hspec,
+                       http-conduit,
+                       aeson,
+                       lens-aeson,
+                       lens,
+                       bytestring,
+                       random,
+                       time,
+                       http-types,
+                       text,
+                       QuickCheck,
+                       
   ghc-options:         -Wall
   other-modules:       GoogleLLM
+  default-language: Haskell2010
