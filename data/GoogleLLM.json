@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "1.\tTaylor Swift\tWest Reading, Pennsylvania\tPhilly Cheesesteak\n2.\tMorgan Wallen\tSneedville, Tennessee\tBarbecue\n3.\tHarry Styles\tHolmes Chapel, Cheshire, England\tFish and Chips \n4.\tDrake\tToronto, Canada\tPoutine\n5.\tBad Bunny\tSan Juan, Puerto Rico\tMofongo \n6.\tLuke Combs\tCharlotte, North Carolina\tBBQ \n7.\tThe Weeknd\tToronto, Canada\tPeameal bacon sandwich\n8.\tEd Sheeran\tFramlingham, Suffolk, England\tSunday Roast\n9.\tJustin Bieber\tStratford, Ontario, Canada\tPoutine\n10.\tDoja Cat\tLos Angeles, California\tTacos"
+            "text": "| Artist | Hometown | Local Cuisine |\n| ----------- | ----------- | ----------- |\n| Drake | Toronto, Canada | Poutine |\n| Taylor Swift | West Reading, Pennsylvania | Philly Cheesesteak |\n| Ed Sheeran | Halifax, England | Yorkshire Pudding |\n| Justin Bieber | Stratford, Ontario | Butter Tarts |\n| The Weeknd | Toronto, Canada | Peameal Bacon Sandwich |\n| Ariana Grande | Boca Raton, Florida | Stone Crab |\n| Kanye West | Chicago, Illinois | Chicago-Style Pizza |\n| Harry Styles | Holmes Chapel, England | Fish and Chips |\n| Billie Eilish | Los Angeles, California | Tacos |\n| Olivia Rodrigo | Temecula, California | In-N-Out Burger |"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 40,
-    "candidatesTokenCount": 155,
-    "totalTokenCount": 195
+    "candidatesTokenCount": 153,
+    "totalTokenCount": 193
   }
 }

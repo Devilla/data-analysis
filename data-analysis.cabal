@@ -80,6 +80,7 @@ executable data-analysis
                       bytestring,
                       random,
                       time,
+                      http-types,
                       hspec       
     -- Directories containing source files.
     hs-source-dirs:   app
@@ -196,7 +197,7 @@ test-suite ParsePreferencesTest
                          time,
                          http-types,
                          text,
-                         QuickCheck,
+                         QuickCheck
     
     ghc-options:         -Wall
     other-modules:       ParsePreferences
