@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "1. Taylor Swift, West Reading, Pennsylvania, Cheesesteaks\n2. Bad Bunny, San Juan, Puerto Rico, Mofongo\n3. Drake, Toronto, Canada, Poutine\n4. Rihanna, Saint Michael, Barbados, Flying Fish and Cou-Cou\n5. The Weeknd, Toronto, Canada, Butter tarts\n6. Ed Sheeran, Halifax, England, Fish and chips\n7. Beyoncé, Houston, Texas, Barbecue\n8. Adele, Tottenham, England, Pie and mash\n9. Harry Styles, Holmes Chapel, England, Lancashire hotpot\n10. Justin Bieber, Stratford, Canada, Poutine"
+            "text": "| Artist | Hometown | Local Cuisine |\n| ----------- | ----------- | ----------- |\n| Drake | Toronto, Canada | Poutine |\n| Taylor Swift | West Reading, Pennsylvania | Philly Cheesesteak |\n| Ed Sheeran | Halifax, England | Yorkshire Pudding |\n| Justin Bieber | Stratford, Ontario | Butter Tarts |\n| The Weeknd | Toronto, Canada | Peameal Bacon Sandwich |\n| Ariana Grande | Boca Raton, Florida | Stone Crab |\n| Kanye West | Chicago, Illinois | Chicago-Style Pizza |\n| Harry Styles | Holmes Chapel, England | Fish and Chips |\n| Billie Eilish | Los Angeles, California | Tacos |\n| Olivia Rodrigo | Temecula, California | In-N-Out Burger |"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 40,
-    "candidatesTokenCount": 129,
-    "totalTokenCount": 169
+    "candidatesTokenCount": 153,
+    "totalTokenCount": 193
   }
 }
