@@ -25,7 +25,7 @@ import Data.Maybe (fromMaybe)
 -- import GoogleLLM (generateContent)
 data MealPreference = MealPreference
   { time :: String
-  , time_preferred_cuisines :: [String]
+  , preferred_cuisines :: [String]
   } deriving (Show, Generic)
 
 instance Aeson.FromJSON MealPreference
@@ -35,7 +35,7 @@ getPreferredCuisines :: IO [[String]]
 getPreferredCuisines = do
     contents <- BL.readFile "data/meal_preferences.json"
     let mealPreferences = Aeson.decode contents :: Maybe [MealPreference]
-    return $ map time_preferred_cuisines $ fromMaybe [] mealPreferences
+    return $ map preferred_cuisines $ fromMaybe [] mealPreferences
 
 
 
