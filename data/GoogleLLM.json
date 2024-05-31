@@ -1,39 +1,17 @@
 {
-  "candidates": [
-    {
-      "content": {
-        "parts": [
-          {
-            "text": "1. Bad Bunny, San Juan, Puerto Rico, Mofongo\n2. Taylor Swift, West Reading, Pennsylvania, Philly Cheesesteak\n3. Drake, Toronto, Canada, Poutine\n4. Ed Sheeran, Halifax, England, Fish and Chips\n5. The Weeknd, Toronto, Canada, Butter Chicken\n6. BTS, Seoul, South Korea, Kimchi\n7. Harry Styles, Holmes Chapel, England, Lancashire Hotpot\n8. Olivia Rodrigo, Temecula, California, Carne Asada Fries\n9. Dua Lipa, London, England, Chicken Tikka Masala\n10. Justin Bieber, Stratford, Canada, Nanaimo Bar"
-          }
-        ],
-        "role": "model"
-      },
-      "finishReason": "STOP",
-      "index": 0,
-      "safetyRatings": [
-        {
-          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-          "probability": "NEGLIGIBLE"
-        },
-        {
-          "category": "HARM_CATEGORY_HATE_SPEECH",
-          "probability": "NEGLIGIBLE"
-        },
-        {
-          "category": "HARM_CATEGORY_HARASSMENT",
-          "probability": "NEGLIGIBLE"
-        },
-        {
-          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-          "probability": "NEGLIGIBLE"
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
         }
-      ]
-    }
-  ],
-  "usageMetadata": {
-    "promptTokenCount": 40,
-    "candidatesTokenCount": 135,
-    "totalTokenCount": 175
+      }
+    ]
   }
 }

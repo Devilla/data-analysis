@@ -6,7 +6,7 @@
 module Main where
 
 import Prelude
-import SerpAPI ( getFromSerpApi )
+-- import SerpAPI ( getFromSerpApi )
 import qualified Data.Aeson as Aeson
 import qualified Data.ByteString.Lazy as BL
 import GetWeather ( Weather(..), Location(..), Current(..), getWeatherData )
@@ -16,7 +16,7 @@ import GoogleLLM ( generateContent )
 import GHC.Generics ( Generic )
 import Data.List (find,intercalate)
 import Data.List.Split (splitOn)
-import Data.Maybe (fromJust)
+-- import Data.Maybe (fromJust)
 import Data.Maybe (fromMaybe)
 
 
