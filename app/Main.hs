@@ -18,9 +18,7 @@ import Data.List (find,intercalate)
 import Data.List.Split (splitOn)
 -- import Data.Maybe (fromJust)
 import Data.Maybe (fromMaybe)
-
-
-
+import Data.Aeson (decode)
 
 -- import GoogleLLM (generateContent)
 data MealPreference = MealPreference
@@ -31,13 +29,11 @@ data MealPreference = MealPreference
 instance Aeson.FromJSON MealPreference
 
 -- get json valus of preferred cuisine from json file
-getPreferredCuisines :: IO [[String]]
-getPreferredCuisines = do
+getPreferredCuisines :: String -> IO (Maybe [String])
+getPreferredCuisines time = do
     contents <- BL.readFile "data/meal_preferences.json"
-    let mealPreferences = Aeson.decode contents :: Maybe [MealPreference]
-    return $ map preferred_cuisines $ fromMaybe [] mealPreferences
-
-
+    let preferences = decode contents :: Maybe [MealPreference]
+    return (lookup time (map (\p -> (Main.time p, preferred_cuisines p)) (fromMaybe [] preferences)))
 
 jsonFile :: FilePath
 jsonFile = "data/meal_preferences.json"
@@ -59,11 +55,10 @@ main = do
             let currentTemp = temp_c $ current w
             putStrLn $ "Current Time in New York: " ++ time
             putStrLn $ "Current Temperature in New York: " ++ show currentTemp
-
         Nothing -> putStrLn "Could not get weather data"
 
     -- Get preferred cuisines print
-    cuisines <- getPreferredCuisines
+    cuisines <- getPreferredCuisines "06:00 - 10:00"
     let flatCuisines = concat cuisines
     putStrLn $ "Preferred cuisines: " ++ intercalate ", " flatCuisines
 
@@ -89,28 +84,3 @@ main = do
     -- Write the content to a file
     let lazyContent = BL.fromStrict resContent
     BL.writeFile "data/GoogleLLM.json" lazyContent
-    
-
-    -- get json valus of preferred cuisine from json file
-    -- result <- getPreferredCuisines "11:00 - 14:00"
-    -- case result of
-    --     Just cuisines -> print cuisines
-    --     Nothing -> putStrLn "No preferred cuisines found for the specified time"
-
-    -- result <- getBillboardData
-    -- case result of
-    --     Just v  -> print v
-    --     Nothing -> putStrLn "Error fetching data"
-
-        -- -- Request for the current time in New York
-    -- resTime <- getFromSerpApi "current Time in New York in 24 hour format"    
-    -- -- Convert resTime into a JSON ByteString
-    -- let jsonTime = Aeson.encode resTime
-    -- -- Write the JSON ByteString to a file
-    -- BL.writeFile "data/real_time_output.json" jsonTime
-    -- -- Request for the current temperature in New York
-    -- resTemp <- getFromSerpApi "current temperature in New York in degrees Celsius"
-    -- -- Convert resTemp into a JSON ByteString
-    -- let jsonTemp = Aeson.encode resTemp
-    -- -- Write the JSON ByteString to a file
-    -- BL.writeFile "data/real_time_temperature.json" jsonTemp
