@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "**Asian**\n\n* **Pho**: Vietnamese noodle soup with herbs, meat, and vegetables\n* **Pad Thai**: Thai stir-fried rice noodles with vegetables, sauce, and peanuts\n* **Sushi**: Japanese vinegared rice with various toppings\n* **Dumplings**: Chinese steamed or boiled dough pockets filled with meat, vegetables, or seafood\n* **Bibimbap**: Korean mixed rice bowl with vegetables, meat, and a fried egg\n* **Kimchi**: Korean fermented cabbage dish with spicy peppers and garlic\n* **Green curry**: Thai coconut milk-based curry with vegetables and meat\n* **Naan**: Indian flatbread served with curries and other dishes\n* **Mandarin orange chicken**: Chinese-American dish with crispy fried chicken coated in a sweet and sour sauce\n* **Teriyaki**: Japanese soy sauce-based glaze used to marinate and grill meat or fish\n\n**Mediterranean**\n\n* **Hummus**: Middle Eastern dip made from chickpeas, tahini, and lemon juice\n* **Baba ganoush**: Middle Eastern dip made from roasted eggplant, tahini, and spices\n* **Tabbouleh**: Levantine salad made from bulgur wheat, vegetables, and herbs\n* **Falafel**: Middle Eastern deep-fried balls made from chickpeas or fava beans\n* **Moussaka**: Greek casserole made with layers of eggplant, ground meat, and béchamel sauce\n* **Paella**: Spanish rice dish with seafood, vegetables, and saffron\n* **Dolmades**: Turkish/Greek stuffed grape leaves filled with rice, vegetables, and herbs\n* **Tzatziki**: Greek yogurt-based sauce with cucumber, garlic, and dill\n* **Spanakopita**: Greek spinach pie made with phyllo dough\n* **Shakshuka**: North African breakfast dish made with eggs poached in a spiced tomato sauce"
+            "text": "**Asian Soups and Stews**\n\n* **Tom Yum Goon (Thailand):** A spicy and sour soup made with shrimp, lemongrass, galangal, and kaffir lime leaves.\n* **Pho (Vietnam):** A beef or chicken noodle soup with rice noodles, herbs, and spices.\n* **Laksa (Malaysia):** A spicy noodle soup with coconut milk, shrimp paste, and various toppings such as chicken, shrimp, and tofu.\n* **Ramen (Japan):** A noodle soup with a flavorful broth made from pork, chicken, or seafood, topped with noodles, vegetables, and meat.\n* **Miso Soup (Japan):** A simple but flavorful soup made with miso paste, seaweed, and tofu.\n\n**Mediterranean Soups and Stews**\n\n* **Avgolemono Soup (Greece):** A creamy lemon-egg soup with chicken or lamb broth.\n* **Fasolia (Cyprus):** A hearty bean stew with tomatoes, onions, and herbs.\n* **Harira (Morocco):** A thick, savory stew made with chickpeas, lentils, meat, and tomatoes.\n* **Shurbat Udham (Jordan):** A tomato-based soup with meat, rice, and chickpeas.\n* **Soupe de Poisson (France):** A flavorful fish stew made with various types of fish, shellfish, and vegetables.\n\n**Asian Hot Drinks**\n\n* **Matcha Tea (Japan):** A powdered green tea with a rich, earthy flavor.\n* **Green Tea (China):** A refreshing and hydrating beverage made from the leaves of the Camellia sinensis plant.\n* **Bubble Tea (Taiwan):** A cold or hot tea drink with chewy tapioca pearls and various flavors.\n* **Ginger Tea (India):** A warm and soothing tea made with ginger, lemon, and honey.\n* **Star Anise Tea (Vietnam):** A fragrant and aromatic tea made with star anise, cinnamon, and other spices.\n\n**Mediterranean Hot Drinks**\n\n* **Moroccan Mint Tea:** A green tea steeped with mint leaves and sweetened with sugar.\n* **Sahlep (Turkey):** A hot drink made from roasted orchid bulbs and milk, often seasoned with cinnamon.\n* **Coffee:** A popular beverage made from roasted and ground coffee beans.\n* **Hot Chocolate:** A warm and comforting drink made with melted chocolate, milk, and sugar.\n* **Salep (Cyprus):** A drink similar to sahlep, made with roasted orchid bulbs, milk, and cinnamon."
           }
         ],
         "role": "model"
@@ -32,8 +32,8 @@
     }
   ],
   "usageMetadata": {
-    "promptTokenCount": 6,
-    "candidatesTokenCount": 379,
-    "totalTokenCount": 385
+    "promptTokenCount": 15,
+    "candidatesTokenCount": 527,
+    "totalTokenCount": 542
   }
 }
