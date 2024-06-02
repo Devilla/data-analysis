@@ -1,17 +1,39 @@
 {
-  "error": {
-    "code": 400,
-    "message": "API key not valid. Please pass a valid API key.",
-    "status": "INVALID_ARGUMENT",
-    "details": [
-      {
-        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
-        "reason": "API_KEY_INVALID",
-        "domain": "googleapis.com",
-        "metadata": {
-          "service": "generativelanguage.googleapis.com"
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**Asian**\n\n* **Pho**: Vietnamese noodle soup with herbs, meat, and vegetables\n* **Pad Thai**: Thai stir-fried rice noodles with vegetables, sauce, and peanuts\n* **Sushi**: Japanese vinegared rice with various toppings\n* **Dumplings**: Chinese steamed or boiled dough pockets filled with meat, vegetables, or seafood\n* **Bibimbap**: Korean mixed rice bowl with vegetables, meat, and a fried egg\n* **Kimchi**: Korean fermented cabbage dish with spicy peppers and garlic\n* **Green curry**: Thai coconut milk-based curry with vegetables and meat\n* **Naan**: Indian flatbread served with curries and other dishes\n* **Mandarin orange chicken**: Chinese-American dish with crispy fried chicken coated in a sweet and sour sauce\n* **Teriyaki**: Japanese soy sauce-based glaze used to marinate and grill meat or fish\n\n**Mediterranean**\n\n* **Hummus**: Middle Eastern dip made from chickpeas, tahini, and lemon juice\n* **Baba ganoush**: Middle Eastern dip made from roasted eggplant, tahini, and spices\n* **Tabbouleh**: Levantine salad made from bulgur wheat, vegetables, and herbs\n* **Falafel**: Middle Eastern deep-fried balls made from chickpeas or fava beans\n* **Moussaka**: Greek casserole made with layers of eggplant, ground meat, and béchamel sauce\n* **Paella**: Spanish rice dish with seafood, vegetables, and saffron\n* **Dolmades**: Turkish/Greek stuffed grape leaves filled with rice, vegetables, and herbs\n* **Tzatziki**: Greek yogurt-based sauce with cucumber, garlic, and dill\n* **Spanakopita**: Greek spinach pie made with phyllo dough\n* **Shakshuka**: North African breakfast dish made with eggs poached in a spiced tomato sauce"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
         }
-      }
-    ]
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6,
+    "candidatesTokenCount": 379,
+    "totalTokenCount": 385
   }
 }
