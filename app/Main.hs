@@ -55,22 +55,16 @@ main = do
             let dateTime = currentTime
             let time = splitDateAndTime dateTime
             let currentTemp = temp_c $ current w
-            putStrLn $ "Current Time in New York: " ++ time
-            putStrLn $ "Current Temperature in New York: " ++ show currentTemp
-        Nothing -> putStrLn "Could not get weather data"
-
-    -- Get preferred cuisines print
-    currentTime <- getCurrentTime
-    let time = formatTime defaultTimeLocale "%H:%M" currentTime
-    putStrLn $ "Current Time: " ++ time
-    let timeRange = if time >= "06:00" && time <= "10:00" then "06:00 - 10:00" else
-                    if time >= "10:00" && time <= "11:00" then "10:00 - 11:00" else
-                    if time >= "11:00" && time <= "14:00" then "11:00 - 14:00" else
-                    if time >= "15:00" && time <= "18:00" then "15:00 - 18:00" else
-                    if time >= "18:00" && time <= "21:00" then "18:00 - 21:00" else "NA"
-    cuisines <- getPreferredCuisines timeRange
-    let flatCuisines = concat cuisines
-    putStrLn $ "Preferred cuisines: " ++ intercalate ", " flatCuisines
+            -- Get preferred cuisines
+            let time = currentTime
+            let timeRange = if time >= "06:00" && time <= "10:00" then "06:00 - 10:00" else
+                            if time >= "10:00" && time <= "11:00" then "10:00 - 11:00" else
+                            if time >= "11:00" && time <= "14:00" then "11:00 - 14:00" else
+                            if time >= "15:00" && time <= "18:00" then "15:00 - 18:00" else
+                            if time >= "18:00" && time <= "21:00" then "18:00 - 21:00" else "NA"
+            cuisines <- getPreferredCuisines timeRange
+            let flatCuisines = concat cuisines
+            putStrLn $ "Preferred cuisines: " ++ intercalate ", " flatCuisines
 
 
     -- Request for the Billboard top 10 artists and their hometown
