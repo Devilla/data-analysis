@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "**Asian**\n\n**Soups:**\n\n* Miso soup (Japanese)\n* Tom yum soup (Thai)\n* Pho (Vietnamese)\n* Tantanmen (Chinese)\n* Laksa (Malaysian)\n\n**Stews:**\n\n* Beef rendang (Indonesian)\n* Chicken tikka masala (Indian)\n* Japanese curry\n* Korean beef stew (galbi jjim)\n* Massaman curry (Thai)\n\n**Hot Drinks:**\n\n* Matcha latte (Japanese)\n* Chinese tea (e.g., pu'erh, oolong)\n* Thai iced tea\n* Vietnamese iced coffee\n* Ginger tea\n\n**Mediterranean**\n\n**Soups:**\n\n* Gazpacho (Spanish)\n* Minestrone (Italian)\n* Greek lemon soup (avgolemono)\n* French onion soup\n* Turkish lentil soup\n\n**Stews:**\n\n* Beef tagine (Moroccan)\n* Lamb stew (Greek)\n* Spanish paella\n* Italian osso buco\n* French cassoulet\n\n**Hot Drinks:**\n\n* Turkish coffee\n* Greek coffee\n* Arabic coffee\n* Salep (Turkish)\n* Anise tea"
+            "text": "**Asian**\n\n* **Soups:**\n    * Hot and Sour Soup (Chinese)\n    * Miso Soup (Japanese)\n    * Tom Yum Soup (Thai)\n    * Pho (Vietnamese)\n    * Laksa (Malaysian)\n* **Stews:**\n    * Beef Rendang (Indonesian)\n    * Japanese Curry\n    * Chicken Teriyaki (Japanese)\n    * Pad See Ew (Thai)\n    * Stir-fried Beef with Snow Peas and Carrots (Chinese)\n* **Hot Drinks:**\n    * Green Tea (various origins)\n    * Matcha (Japanese green tea)\n    * Ginger Tea (Chinese)\n    * Turmeric Tea (Indian)\n    * Chrysanthemum Tea (Chinese)\n\n**Mediterranean**\n\n* **Soups:**\n    * Minestrone (Italian)\n    * Gazpacho (Spanish)\n    * Bouillabaisse (French)\n    * Avgolemono Soup (Greek)\n    * Harira (Moroccan)\n* **Stews:**\n    * Beef Tagine (Moroccan)\n    * Chicken with Lemon and Olives (Greek)\n    * Paella (Spanish)\n    * Moussaka (Greek)\n    * Ratatouille (French)\n* **Hot Drinks:**\n    * Turkish Coffee\n    * Espresso (Italian)\n    * Greek Mountain Tea\n    * Salep (Turkish)\n    * Horchata (Spanish)"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 15,
-    "candidatesTokenCount": 245,
-    "totalTokenCount": 260
+    "candidatesTokenCount": 303,
+    "totalTokenCount": 318
   }
 }
