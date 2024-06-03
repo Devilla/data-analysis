@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "**Asian**\n\n* **Soups:**\n    * Hot and Sour Soup (Chinese)\n    * Miso Soup (Japanese)\n    * Tom Yum Soup (Thai)\n    * Pho (Vietnamese)\n    * Laksa (Malaysian)\n* **Stews:**\n    * Beef Rendang (Indonesian)\n    * Japanese Curry\n    * Chicken Teriyaki (Japanese)\n    * Pad See Ew (Thai)\n    * Stir-fried Beef with Snow Peas and Carrots (Chinese)\n* **Hot Drinks:**\n    * Green Tea (various origins)\n    * Matcha (Japanese green tea)\n    * Ginger Tea (Chinese)\n    * Turmeric Tea (Indian)\n    * Chrysanthemum Tea (Chinese)\n\n**Mediterranean**\n\n* **Soups:**\n    * Minestrone (Italian)\n    * Gazpacho (Spanish)\n    * Bouillabaisse (French)\n    * Avgolemono Soup (Greek)\n    * Harira (Moroccan)\n* **Stews:**\n    * Beef Tagine (Moroccan)\n    * Chicken with Lemon and Olives (Greek)\n    * Paella (Spanish)\n    * Moussaka (Greek)\n    * Ratatouille (French)\n* **Hot Drinks:**\n    * Turkish Coffee\n    * Espresso (Italian)\n    * Greek Mountain Tea\n    * Salep (Turkish)\n    * Horchata (Spanish)"
+            "text": "**Asian**\n\n* **Soups:**\n    * Pho (Vietnamese beef noodle soup)\n    * Tom Yum (Thai spicy and sour soup)\n    * Miso (Japanese soybean paste soup)\n    * Samgyeopsal (Korean pork belly soup)\n    * Laksa (Singaporean spicy coconut milk noodle soup)\n* **Stews:**\n    * Beef Rendang (Indonesian spicy beef stew)\n    * Massaman Curry (Thai peanut-based chicken stew)\n    * Oyakodon (Japanese chicken and egg rice bowl)\n    * Bulgogi (Korean grilled marinated beef strips)\n* **Hot Drinks:**\n    * Matcha (Japanese green tea)\n    * Dalgona Coffee (Korean whipped iced coffee)\n    * Yuzu Tea (Japanese citrus fruit tea)\n    * Sakura Tea (Japanese cherry blossom tea)\n\n**Mediterranean**\n\n* **Soups:**\n    * Gazpacho (Spanish cold tomato soup)\n    * Minestrone (Italian vegetable soup)\n    * Avgolemono (Greek lemon-egg soup)\n    * Harira (Moroccan tomato and lentil soup)\n    * Bouillabaisse (French fish stew)\n* **Stews:**\n    * Tagine (North African meat and vegetable stew)\n    * Paella (Spanish saffron rice dish)\n    * Moussaka (Greek eggplant and mince casserole)\n    * Cassoulet (French bean and meat stew)\n* **Hot Drinks:**\n    * Turkish Coffee\n    * Greek Coffee\n    * Arabic Coffee\n    * Salep (Turkish flour-based beverage)\n    * Rakı (Turkish anise-flavored liqueur)"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 15,
-    "candidatesTokenCount": 303,
-    "totalTokenCount": 318
+    "candidatesTokenCount": 349,
+    "totalTokenCount": 364
   }
 }

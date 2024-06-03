@@ -4,8 +4,6 @@ module BillboardAPI where
 
 import Network.HTTP.Simple
 import Data.Aeson
-import qualified Data.ByteString.Char8 as B8
-import Data.String (IsString)
 
 
 getBillboardData :: IO (Maybe Value)
