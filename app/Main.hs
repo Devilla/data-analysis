@@ -97,3 +97,11 @@ main = do
             -- Write the content to a file
             let lazyContent = BL.fromStrict resContent
             BL.writeFile "data/GoogleLLM.json" lazyContent
+
+    -- Request for the Billboard top artists by the Google LLM
+    resContent <- generateContent "Give billboard top 10 artists their hometown's famous food"
+
+
+    -- Write the content to a file
+    let lazyContent = BL.fromStrict resContent
+    BL.writeFile "data/billboard_top_artists.json" lazyContent

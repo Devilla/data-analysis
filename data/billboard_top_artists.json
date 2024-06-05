@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**Artist** | **Hometown** | **Famous Food**\n---|---|---\nDrake | Toronto, Canada | Peameal bacon sandwich\nTaylor Swift | Reading, Pennsylvania | Tastykake cupcakes\nMorgan Wallen | Sneedville, Tennessee | Moonshine\nAdele | Tottenham, London | Fish and chips\nBruno Mars | Honolulu, Hawaii | Spam musubi\nHarry Styles | Redditch, England | Fish and chips\nDoja Cat | Los Angeles, California | In-N-Out Burger\nThe Weeknd | Toronto, Canada | Butter tarts\nEd Sheeran | Halifax, England | Pastie\nLizzo | Detroit, Michigan | Coney dogs"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 13,
+    "candidatesTokenCount": 130,
+    "totalTokenCount": 143
+  }
+}

@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "**Asian**\n\n* **Soups:**\n    * Pho (Vietnamese beef noodle soup)\n    * Tom Yum (Thai spicy and sour soup)\n    * Miso (Japanese soybean paste soup)\n    * Samgyeopsal (Korean pork belly soup)\n    * Laksa (Singaporean spicy coconut milk noodle soup)\n* **Stews:**\n    * Beef Rendang (Indonesian spicy beef stew)\n    * Massaman Curry (Thai peanut-based chicken stew)\n    * Oyakodon (Japanese chicken and egg rice bowl)\n    * Bulgogi (Korean grilled marinated beef strips)\n* **Hot Drinks:**\n    * Matcha (Japanese green tea)\n    * Dalgona Coffee (Korean whipped iced coffee)\n    * Yuzu Tea (Japanese citrus fruit tea)\n    * Sakura Tea (Japanese cherry blossom tea)\n\n**Mediterranean**\n\n* **Soups:**\n    * Gazpacho (Spanish cold tomato soup)\n    * Minestrone (Italian vegetable soup)\n    * Avgolemono (Greek lemon-egg soup)\n    * Harira (Moroccan tomato and lentil soup)\n    * Bouillabaisse (French fish stew)\n* **Stews:**\n    * Tagine (North African meat and vegetable stew)\n    * Paella (Spanish saffron rice dish)\n    * Moussaka (Greek eggplant and mince casserole)\n    * Cassoulet (French bean and meat stew)\n* **Hot Drinks:**\n    * Turkish Coffee\n    * Greek Coffee\n    * Arabic Coffee\n    * Salep (Turkish flour-based beverage)\n    * Rakı (Turkish anise-flavored liqueur)"
+            "text": "**Asian**\n\n**Soups:**\n* Miso soup (Japan)\n* Tom yum soup (Thailand)\n* Pho (Vietnam)\n* Wonton soup (China)\n* Ramen (Japan)\n\n**Stews:**\n* Japanese curry (Japan)\n* Korean stew (gamjatang, kimchi stew)\n* Chinese hot pot (China)\n* Thai green curry (Thailand)\n* Vietnamese bun bo hue (beef noodle soup)\n\n**Hot Drinks:**\n* Matcha tea (Japan)\n* Jasmine tea (China)\n* Genmai tea (Japan)\n* Ginger tea (China)\n* Chrysanthemum tea (China)\n\n**Mediterranean**\n\n**Soups:**\n* French onion soup\n* Italian minestrone\n* Spanish gazpacho\n* Turkish lentil soup\n* Lebanese lentil soup\n\n**Stews:**\n* Italian osso bucco\n* Greek moussaka\n* Spanish paella\n* French cassoulet\n* Moroccan tagine\n\n**Hot Drinks:**\n* Turkish coffee\n* Italian cappuccino\n* Greek frappe\n* Spanish horchata\n* Moroccan mint tea"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 15,
-    "candidatesTokenCount": 349,
-    "totalTokenCount": 364
+    "candidatesTokenCount": 232,
+    "totalTokenCount": 247
   }
 }
