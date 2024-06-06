@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "**Artist** | **Hometown** | **Famous Food**\n---|---|---\nDrake | Toronto, Canada | Peameal bacon sandwich\nTaylor Swift | Reading, Pennsylvania | Tastykake cupcakes\nMorgan Wallen | Sneedville, Tennessee | Moonshine\nAdele | Tottenham, London | Fish and chips\nBruno Mars | Honolulu, Hawaii | Spam musubi\nHarry Styles | Redditch, England | Fish and chips\nDoja Cat | Los Angeles, California | In-N-Out Burger\nThe Weeknd | Toronto, Canada | Butter tarts\nEd Sheeran | Halifax, England | Pastie\nLizzo | Detroit, Michigan | Coney dogs"
+            "text": "1. **The Weeknd (Toronto)** - Poutine\n2. **Drake (Toronto)** - Shawarma\n3. **SZA (St. Louis)** - St. Louis-style ribs\n4. **Harry Styles (Holmes Chapel, England)** - Fish and Chips\n5. **Bad Bunny (San Juan, Puerto Rico)** - Arroz con gandules\n6. **Rihanna (Bridgetown, Barbados)** - Flying fish and cou cou\n7. **Taylor Swift (West Reading, Pennsylvania)** - Philly Cheesesteak\n8. **Elton John (Pinner, England)** - Bangers and mash\n9. **Queen Bey (Houston, Texas)** - Texas Barbecue\n10. **Ed Sheeran (Framlingham, England)** - Suffolk Punch soft cheese"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 13,
-    "candidatesTokenCount": 130,
-    "totalTokenCount": 143
+    "candidatesTokenCount": 159,
+    "totalTokenCount": 172
   }
 }

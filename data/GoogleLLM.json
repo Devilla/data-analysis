@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "**Asian**\n\n**Soups:**\n* Miso soup (Japan)\n* Tom yum soup (Thailand)\n* Pho (Vietnam)\n* Wonton soup (China)\n* Ramen (Japan)\n\n**Stews:**\n* Japanese curry (Japan)\n* Korean stew (gamjatang, kimchi stew)\n* Chinese hot pot (China)\n* Thai green curry (Thailand)\n* Vietnamese bun bo hue (beef noodle soup)\n\n**Hot Drinks:**\n* Matcha tea (Japan)\n* Jasmine tea (China)\n* Genmai tea (Japan)\n* Ginger tea (China)\n* Chrysanthemum tea (China)\n\n**Mediterranean**\n\n**Soups:**\n* French onion soup\n* Italian minestrone\n* Spanish gazpacho\n* Turkish lentil soup\n* Lebanese lentil soup\n\n**Stews:**\n* Italian osso bucco\n* Greek moussaka\n* Spanish paella\n* French cassoulet\n* Moroccan tagine\n\n**Hot Drinks:**\n* Turkish coffee\n* Italian cappuccino\n* Greek frappe\n* Spanish horchata\n* Moroccan mint tea"
+            "text": "**Asian**\n\n**Soups:**\n* Tom Yum (Thai sour and spicy soup)\n* Pho (Vietnamese beef noodle soup)\n* Ramen (Japanese noodle soup with various toppings)\n* Tonkotsu Ramen (Japanese pork bone broth noodle soup)\n* Miso Shiru (Japanese soybean paste soup)\n* Laksa (Malaysian or Singaporean coconut milk noodle soup)\n* Congee (Chinese rice porridge with various toppings)\n\n**Stews:**\n* Massaman Curry (Thai beef curry stew)\n* Shabu-Shabu (Japanese hot pot stew)\n* Sukiyaki (Japanese beef stew with various vegetables)\n* Mapo Tofu (Chinese spicy tofu stew)\n\n**Hot Drinks:**\n* Matcha (Japanese green tea powder)\n* Jasmine Tea (Chinese fragrant tea)\n* Bubble Tea (Taiwanese tea with tapioca pearls)\n* Vietnamese Egg Coffee (coffee with egg yolks and condensed milk)\n* Dalgona Coffee (South Korean whipped coffee)\n\n**Mediterranean**\n\n**Soups:**\n* Gazpacho (Spanish cold tomato soup)\n* Avgolemono (Greek lemon-egg soup)\n* Bouillabaisse (French seafood soup)\n* Ribollita (Italian Tuscan bread and bean soup)\n\n**Stews:**\n* Tagine (North African stew with various meats and vegetables)\n* Paella (Spanish rice dish with seafood and vegetables)\n* Moussaka (Greek eggplant and potato casserole)\n* Ratatouille (French vegetable stew)\n\n**Hot Drinks:**\n* Turkish Coffee (strong, thick coffee brewed in a traditional cezve)\n* Salep (Turkish hot drink made from orchid root powder)\n* Sahleb (Egyptian hot drink made from rice and cinnamon)\n* Mint Tea (Moroccan tea infused with fresh mint leaves)\n* Masala Chai (Indian tea with spices and milk)"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 15,
-    "candidatesTokenCount": 232,
-    "totalTokenCount": 247
+    "candidatesTokenCount": 390,
+    "totalTokenCount": 405
   }
 }
