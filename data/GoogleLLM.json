@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "**Asian**\n\n**Soups:**\n* Tom Yum (Thai sour and spicy soup)\n* Pho (Vietnamese beef noodle soup)\n* Ramen (Japanese noodle soup with various toppings)\n* Tonkotsu Ramen (Japanese pork bone broth noodle soup)\n* Miso Shiru (Japanese soybean paste soup)\n* Laksa (Malaysian or Singaporean coconut milk noodle soup)\n* Congee (Chinese rice porridge with various toppings)\n\n**Stews:**\n* Massaman Curry (Thai beef curry stew)\n* Shabu-Shabu (Japanese hot pot stew)\n* Sukiyaki (Japanese beef stew with various vegetables)\n* Mapo Tofu (Chinese spicy tofu stew)\n\n**Hot Drinks:**\n* Matcha (Japanese green tea powder)\n* Jasmine Tea (Chinese fragrant tea)\n* Bubble Tea (Taiwanese tea with tapioca pearls)\n* Vietnamese Egg Coffee (coffee with egg yolks and condensed milk)\n* Dalgona Coffee (South Korean whipped coffee)\n\n**Mediterranean**\n\n**Soups:**\n* Gazpacho (Spanish cold tomato soup)\n* Avgolemono (Greek lemon-egg soup)\n* Bouillabaisse (French seafood soup)\n* Ribollita (Italian Tuscan bread and bean soup)\n\n**Stews:**\n* Tagine (North African stew with various meats and vegetables)\n* Paella (Spanish rice dish with seafood and vegetables)\n* Moussaka (Greek eggplant and potato casserole)\n* Ratatouille (French vegetable stew)\n\n**Hot Drinks:**\n* Turkish Coffee (strong, thick coffee brewed in a traditional cezve)\n* Salep (Turkish hot drink made from orchid root powder)\n* Sahleb (Egyptian hot drink made from rice and cinnamon)\n* Mint Tea (Moroccan tea infused with fresh mint leaves)\n* Masala Chai (Indian tea with spices and milk)"
+            "text": "**Soups**\n\n* **Asian:**\n    * Hot and Sour Soup (Chinese)\n    * Tom Yum Soup (Thai)\n    * Miso Soup (Japanese)\n    * Pho (Vietnamese)\n    * Ramen (Japanese)\n* **Mediterranean:**\n    * Gazpacho (Spanish)\n    * Lentil Soup (Turkish)\n    * Bouillabaisse (French)\n    * Avgolemono (Greek)\n    * Ribollita (Italian)\n\n**Stews**\n\n* **Asian:**\n    * Japanese Curry (Japanese)\n    * Massaman Curry (Thai)\n    * Sukiyaki (Japanese)\n    * Samgyeopsal Stew (Korean)\n    * Pho Bo (Vietnamese)\n* **Mediterranean:**\n    * Cassoulet (French)\n    * Paella (Spanish)\n    * Bobotie (South African)\n    * Moules-frites (Belgian)\n    * Tagine (Moroccan)\n\n**Hot Drinks**\n\n* **Asian:**\n    * Green Tea (China, Japan)\n    * Matcha (Japan)\n    * Oolong Tea (Taiwan)\n    * Pu-erh Tea (China)\n    * Ginger Tea (Various Asian countries)\n* **Mediterranean:**\n    * Turkish Coffee (Turkey)\n    * Moroccan Mint Tea (Morocco)\n    * Salep (Turkey)\n    * Sahlep (Lebanon)\n    * Horchata (Spain)"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 15,
-    "candidatesTokenCount": 390,
-    "totalTokenCount": 405
+    "candidatesTokenCount": 311,
+    "totalTokenCount": 326
   }
 }

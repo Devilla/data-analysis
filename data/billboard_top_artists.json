@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "1. **The Weeknd (Toronto)** - Poutine\n2. **Drake (Toronto)** - Shawarma\n3. **SZA (St. Louis)** - St. Louis-style ribs\n4. **Harry Styles (Holmes Chapel, England)** - Fish and Chips\n5. **Bad Bunny (San Juan, Puerto Rico)** - Arroz con gandules\n6. **Rihanna (Bridgetown, Barbados)** - Flying fish and cou cou\n7. **Taylor Swift (West Reading, Pennsylvania)** - Philly Cheesesteak\n8. **Elton John (Pinner, England)** - Bangers and mash\n9. **Queen Bey (Houston, Texas)** - Texas Barbecue\n10. **Ed Sheeran (Framlingham, England)** - Suffolk Punch soft cheese"
+            "text": "1. **Drake** (Toronto, Canada) - Peameal bacon sandwich\n2. **Taylor Swift** (West Reading, Pennsylvania) - Pretzel\n3. **Adele** (Tottenham, London) - Pie and mash\n4. **Ed Sheeran** (Framlingham, Suffolk) - Fish and chips\n5. **Justin Bieber** (Stratford, Ontario) - Poutine\n6. **Ariana Grande** (Boca Raton, Florida) - Stone crab\n7. **Bruno Mars** (Honolulu, Hawaii) - Loco moco\n8. **Cardi B** (Bronx, New York) - Pizza\n9. **Post Malone** (Grapevine, Texas) - Barbecue\n10. **Billie Eilish** (Los Angeles, California) - In-N-Out Burger"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 13,
-    "candidatesTokenCount": 159,
-    "totalTokenCount": 172
+    "candidatesTokenCount": 165,
+    "totalTokenCount": 178
   }
 }
