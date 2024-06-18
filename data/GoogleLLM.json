@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "**Soups**\n\n* **Asian**\n    * Wonton soup\n    * Pho\n    * Miso soup\n    * Tom yum soup\n* **Mediterranean**\n    * Gazpacho\n    * Avgolemono soup\n    * French onion soup\n\n**Stews**\n\n* **Asian**\n    * Beef rendang\n    * Pad see ew\n    * Massaman curry\n    * Hainanese chicken rice\n* **Mediterranean**\n    * Coq au vin\n    * Ratatouille\n    * Paella\n\n**Hot Drinks**\n\n* **Asian**\n    * Green tea\n    * Oolong tea\n    * Masala chai\n    * Turmeric latte\n* **Mediterranean**\n    * Turkish coffee\n    * Mint tea\n    * Salep (hot, sweet milk drink)"
+            "text": "**Asian Soups and Stews**\n\n* **Ramen** (Japan): A noodle soup with a rich broth made from pork, chicken, or seafood.\n* **Pho** (Vietnam): A beef or chicken noodle soup with a fragrant broth and thin rice noodles.\n* **Tom Yum** (Thailand): A spicy and sour soup made with shrimp, lemongrass, galangal, and kaffir lime leaves.\n* **Laksa** (Malaysia): A spicy coconut milk soup with vermicelli noodles, shrimp, chicken, and vegetables.\n* **Sukiyaki** (Japan): A hot pot dish made with thinly sliced beef, vegetables, and a sweet dipping sauce.\n\n**Mediterranean Soups and Stews**\n\n* **Minestrone** (Italy): A hearty vegetable soup made with a variety of seasonal vegetables, pasta, and beans.\n* **Gazpacho** (Spain): A cold tomato-based soup made with cucumbers, onions, peppers, and garlic.\n* **Lentil Soup** (Turkey): A thick and flavorful soup made with lentils, vegetables, spices, and often ground lamb.\n* **Avgolemono** (Greece): A lemony egg-thickened soup made with chicken or vegetable broth.\n* **Bouillabaisse** (France): A seafood stew made with a variety of fish, shellfish, and vegetables.\n\n**Asian Hot Drinks**\n\n* **Matcha Tea** (Japan): A ceremonial green tea made from finely ground tea leaves, whisked with hot water.\n* **Bubble Tea** (Taiwan): A cold tea-based drink with chewy tapioca pearls and other toppings.\n* **Oolong Tea** (China): A partially oxidized tea with a smooth, floral flavor.\n* **Ginger Tea** (China): A warming and soothing tea made from fresh ginger root.\n* **Vietnamese Iced Coffee** (Vietnam): A strong coffee brewed with chicory and served over ice with condensed milk.\n\n**Mediterranean Hot Drinks**\n\n* **Turkish Coffee** (Turkey): A finely ground coffee brewed in a small copper pot and served in demitasse cups.\n* **Espresso** (Italy): A strong, concentrated coffee made by forcing hot water through finely ground coffee beans.\n* **Café au Lait** (France): A coffee with steamed milk, typically served in a large bowl.\n* **Mint Tea** (Morocco): A refreshing green tea flavored with fresh mint leaves and sugar.\n* **Sahlep** (Turkey): A hot milk drink made with salep powder, a thickening agent derived from orchid roots."
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 15,
-    "candidatesTokenCount": 169,
-    "totalTokenCount": 184
+    "candidatesTokenCount": 532,
+    "totalTokenCount": 547
   }
 }

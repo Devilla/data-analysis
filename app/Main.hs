@@ -6,18 +6,15 @@
 module Main where
 
 import Prelude
-import qualified Data.Aeson as Aeson
 import qualified Data.ByteString.Lazy as BL
 import GetWeather ( Weather(..), Location(..), Current(..), getWeatherData )
 import GoogleLLM ( generateContent )
-import GHC.Generics ( Generic )
 import Data.List (find,intercalate)
 import Data.List.Split (splitOn)
 import Data.Maybe (fromMaybe)
-import Data.Aeson (decode)
 import Data.Time
 import GHC.Generics
-import Data.Aeson
+import Data.Aeson (FromJSON, decode, encode, ToJSON, Value)
 import qualified Data.ByteString.Char8 as C
 import Data.ByteString (split)
 
@@ -27,14 +24,14 @@ data MealPreference = MealPreference
   , preferred_cuisines :: [String]
   } deriving (Show, Generic)
 
-instance Aeson.FromJSON MealPreference
+instance FromJSON MealPreference
 
 data FoodPreferences = FoodPreferences {
   temperature :: String,
   preferred_foods :: [String]
 } deriving (Show, Generic)
 
-instance Aeson.FromJSON FoodPreferences
+instance FromJSON FoodPreferences
 
 data MyJSON = MyJSON {
   candidates :: [Candidate]
@@ -119,7 +116,7 @@ main = do
 
             -- Read the file data/billboard_top_artists.json and get the top 10 artists and their hometowns famous food
             contents <- BL.readFile "data/billboard_top_artists.json"
-            let topArtists = decode contents :: Maybe Aeson.Value
+            let topArtists = decode contents :: Maybe Value
             case topArtists of
                 Just v -> do 
                     mapM_ putStrLn (splitOn "String" $ show v)
