@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "**Asian Soups**\n\n* **Tom Yum Soup** (Thailand): A spicy and sour soup with shrimp, lemongrass, galangal, and kaffir lime leaves.\n* **Pho** (Vietnam): A flavorful beef or chicken broth with rice noodles, herbs, and vegetables.\n* **Ramen** (Japan): A noodle soup with various toppings such as pork belly, egg, and seaweed.\n* **Laksa** (Malaysia): A spicy coconut-based soup with shrimp, fish, and vegetables.\n* **Miso Soup** (Japan): A light and savory soup made with fermented soybean paste, tofu, and seaweed.\n\n**Mediterranean Stews**\n\n* **Beef Stifado** (Greece): A slow-braised beef stew with tomatoes, onions, garlic, and spices.\n* **Harira** (Morocco): A hearty and flavorful stew with chickpeas, lentils, tomatoes, and meat.\n* **Tajine** (North Africa): A stew cooked in a special conical pot, typically with meat, vegetables, and spices.\n* **Paella** (Spain): A rice dish with seafood, vegetables, and seasonings.\n* **Cassoulet** (France): A rich and indulgent stew with white beans, duck, sausage, and pork.\n\n**Asian Hot Drinks**\n\n* **Matcha Tea** (Japan): A powdered green tea with a vibrant emerald color and earthy flavor.\n* **Bubble Tea** (Taiwan): A cold drink with tapioca pearls, flavored tea, and often fruit or milk.\n* **Chai Tea** (India): A spiced black tea with milk, sugar, and cardamom.\n* **Ginger Tea** (China): A warm and invigorating drink with fresh ginger, honey, and lemon.\n* **Oolong Tea** (China): A semi-oxidized tea with a distinct floral aroma and light body.\n\n**Mediterranean Hot Drinks**\n\n* **Turkish Coffee** (Turkey): A strong and flavorful coffee brewed in a small pot (cezve).\n* **Mint Tea** (Morocco): A refreshing and fragrant tea made with fresh mint leaves.\n* **Café au Lait** (France): A classic combination of coffee and steamed milk.\n* **Espresso** (Italy): A strong and concentrated coffee drink made with a special machine.\n* **Macchiato** (Italy): An espresso with a small amount of steamed milk."
+            "text": "**Soups**\n\n* **Asian**\n    * Wonton soup\n    * Pho\n    * Miso soup\n    * Tom yum soup\n* **Mediterranean**\n    * Gazpacho\n    * Avgolemono soup\n    * French onion soup\n\n**Stews**\n\n* **Asian**\n    * Beef rendang\n    * Pad see ew\n    * Massaman curry\n    * Hainanese chicken rice\n* **Mediterranean**\n    * Coq au vin\n    * Ratatouille\n    * Paella\n\n**Hot Drinks**\n\n* **Asian**\n    * Green tea\n    * Oolong tea\n    * Masala chai\n    * Turmeric latte\n* **Mediterranean**\n    * Turkish coffee\n    * Mint tea\n    * Salep (hot, sweet milk drink)"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 15,
-    "candidatesTokenCount": 496,
-    "totalTokenCount": 511
+    "candidatesTokenCount": 169,
+    "totalTokenCount": 184
   }
 }

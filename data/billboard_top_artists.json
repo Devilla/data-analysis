@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "1. Taylor Swift (West Reading, Pennsylvania): Pennsylvania Dutch Pretzels\n2. Harry Styles (Holmes Chapel, England): Fish and Chips\n3. Drake (Toronto, Canada): Peameal Bacon Sandwiches\n4. Olivia Rodrigo (Temecula, California): French Fries\n5. Juice WRLD (Chicago, Illinois): Chicago-Style Deep Dish Pizza\n6. Justin Bieber (Stratford, Canada): Poutine\n7. Morgan Wallen (Sneedville, Tennessee): Country Ham\n8. Doja Cat (Los Angeles, California): Tacos\n9. The Weeknd (Toronto, Canada): Butter Tarts\n10. Ed Sheeran (Framlingham, England): Suffolk Punch Ale"
+            "text": "1. **Taylor Swift** (West Reading, PA): Pretzels\n2. **Harry Styles** (Redditch, England): Fish and chips\n3. **The Weeknd** (Toronto, Canada): Poutine\n4. **Doja Cat** (Los Angeles, CA): In-N-Out Burger\n5. **Morgan Wallen** (Sneedville, TN): Sweet tea\n6. **Adele** (Tottenham, England): Bangers and mash\n7. **Ed Sheeran** (Framlingham, England): Fish and chips\n8. **Imagine Dragons** (Las Vegas, NV): Taco Bell\n9. **Camila Cabello** (Havana, Cuba): Ropa vieja\n10. **Dua Lipa** (London, England): Fish and chips"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 13,
-    "candidatesTokenCount": 143,
-    "totalTokenCount": 156
+    "candidatesTokenCount": 159,
+    "totalTokenCount": 172
   }
 }
