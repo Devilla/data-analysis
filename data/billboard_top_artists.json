@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "1. **Drake** (Toronto, Canada) - Peameal bacon sandwich\n2. **Taylor Swift** (West Reading, Pennsylvania, USA) - Pretzels\n3. **Bad Bunny** (San Juan, Puerto Rico) - Mofongo\n4. **Harry Styles** (Holmes Chapel, England) - Fish and chips\n5. **The Weeknd** (Toronto, Canada) - Butter tarts\n6. **Post Malone** (Syracuse, New York, USA) - Chicken riggies\n7. **Ed Sheeran** (Framlingham, England) - Suffolk pudding\n8. **Lil Baby** (Atlanta, Georgia, USA) - Chicken and waffles\n9. **Doja Cat** (Los Angeles, California, USA) - In-N-Out Burger\n10. **Morgan Wallen** (Sneedville, Tennessee, USA) - Pulled pork barbecue"
+            "text": "1. **Drake (Toronto)**: Peameal bacon sandwich\n2. **Taylor Swift (West Reading, Pennsylvania)**: Pretzel\n3. **Bad Bunny (San Juan, Puerto Rico)**: Mofongo\n4. **The Weeknd (Toronto)**: Butter chicken\n5. **Harry Styles (Holmes Chapel, England)**: Fish and chips\n6. **Kendrick Lamar (Compton, California)**: Tamales\n7. **Ed Sheeran (Framlingham, England)**: Suffolk Punch ham\n8. **Adele (Tottenham, England)**: Full English breakfast\n9. **Billie Eilish (Los Angeles, California)**: In-N-Out Burger\n10. **Olivia Rodrigo (Temecula, California)**: Temecula Valley wine"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 13,
-    "candidatesTokenCount": 182,
-    "totalTokenCount": 195
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 171
   }
 }
