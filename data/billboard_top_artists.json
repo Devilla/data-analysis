@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "1. **Taylor Swift (West Reading, PA)** - Reading Pretzel\n2. **Harry Styles (Holmes Chapel, England)** - Fish and chips\n3. **Morgan Wallen (Sneedville, TN)** - Appalachian moonshine\n4. **Drake (Toronto, Canada)** - Peameal bacon sandwich\n5. **The Weeknd (Toronto, Canada)** - Butter tarts\n6. **Olivia Rodrigo (Temecula, CA)** - Wine\n7. **Billie Eilish (Los Angeles, CA)** - Pink's hot dogs\n8. **Lil Nas X (Lithia Springs, GA)** - Fried chicken\n9. **Ed Sheeran (Framlingham, England)** - Suffolk ham\n10. **Bad Bunny (San Juan, Puerto Rico)** - Mofongo"
+            "text": "1. **Drake (Toronto, Canada)** - Peameal bacon sandwich\n2. **Taylor Swift (West Reading, Pennsylvania)** - Pretzels\n3. **Ed Sheeran (Framlingham, England)** - Fish and chips\n4. **The Weeknd (Toronto, Canada)** - Poutine\n5. **Elton John (Pinner, England)** - Shepherd's pie\n6. **BTS (Seoul, South Korea)** - Tteokbokki (spicy rice cakes)\n7. **Rod Stewart (London, England)** - Jellied eels\n8. **Ed Sheeran (Framlingham, England)** - Fish and chips\n9. **Adele (Tottenham, England)** - Sausage rolls\n10. **Rihanna (Saint Michael, Barbados)** - Cou-cou (cornmeal and okra dish)"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 13,
-    "candidatesTokenCount": 162,
-    "totalTokenCount": 175
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 180
   }
 }
