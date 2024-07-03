@@ -6,7 +6,7 @@ type Rule = String
 
 -- Define the immutable, hard-coded rules of the Code of Conduct
 fixedRules :: [Rule]
-fixedRules = [ "Respect user privacy",
+fixedRules = [  "Respect user privacy",
                "Avoid illegal activities",
                "Ensure fairness and transparency",
                "Do not propagate false information",

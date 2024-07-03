@@ -65,7 +65,10 @@ executable data-analysis
                       GoogleLLM,
                       FatSecretAPI,
                       ImmutableCodeOfConductModule,
-                      SetCodeOfConductModule
+                      SetCodeOfConductModule,
+                      ClassifyPrompt,
+                      EvaluatePrompt,
+                      InputDirectiveUI
 
     -- Modules included in this executable, other than Main.
     -- other-modules:
