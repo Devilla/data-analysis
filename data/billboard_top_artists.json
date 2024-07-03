@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "1. **Drake (Toronto, Canada)** - Peameal bacon sandwich\n2. **Taylor Swift (West Reading, Pennsylvania)** - Pretzels\n3. **Ed Sheeran (Framlingham, England)** - Fish and chips\n4. **The Weeknd (Toronto, Canada)** - Poutine\n5. **Elton John (Pinner, England)** - Shepherd's pie\n6. **BTS (Seoul, South Korea)** - Tteokbokki (spicy rice cakes)\n7. **Rod Stewart (London, England)** - Jellied eels\n8. **Ed Sheeran (Framlingham, England)** - Fish and chips\n9. **Adele (Tottenham, England)** - Sausage rolls\n10. **Rihanna (Saint Michael, Barbados)** - Cou-cou (cornmeal and okra dish)"
+            "text": "| Artist | Hometown | Famous Food |\n|---|---|---|\n| Drake | Toronto, Canada | Peameal bacon sandwich |\n| Taylor Swift | Reading, Pennsylvania | Pretzels |\n| The Weeknd | Toronto, Canada | Poutine |\n| Dua Lipa | London, England | Fish and chips |\n| Ed Sheeran | Framlingham, England | Suffolk ham |\n| Justin Bieber | Stratford, Ontario | Poutini |\n| BTS | Seoul, South Korea | Korean barbecue |\n| Olivia Rodrigo | Murrieta, California | In-N-Out Burger |\n| Billie Eilish | Los Angeles, California | Tacos |\n| Ariana Grande | Boca Raton, Florida | Stone crabs |"
           }
         ],
         "role": "model"
@@ -33,7 +33,7 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 13,
-    "candidatesTokenCount": 167,
-    "totalTokenCount": 180
+    "candidatesTokenCount": 144,
+    "totalTokenCount": 157
   }
 }
