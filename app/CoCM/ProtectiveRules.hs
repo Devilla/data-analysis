@@ -16,7 +16,4 @@ protectiveRules :: String -> Either String String
 protectiveRules prompt
   | isHarmfulPrompt prompt = Left "This prompt violates the aCoCM."
   | otherwise = Right prompt
-
-
-
   --instance not mentioned yet in the main.hs file for calling the protectiveRules function
