@@ -10,11 +10,53 @@ cabal run
 Current Temperature: 22.2
 Preferred cuisines: Asian, Mediterranean
 Preferred Foods: [Soup,Stew,Hot Drinks]
+```
+> Note: Check `data/GoogleLLM.json` for final predicted foods.
+```
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**Asian**\n\n**Soup:**\n* Tom Yum Goon (Thai coconut soup with shrimp)\n* Pho (Vietnamese beef noodle soup)\n* Miso Shiru (Japanese soybean paste soup)\n* Hot and Sour Soup (Chinese soup with tofu and pork)\n\n**Stew:**\n* Beef Rendang (Indonesian beef stew)\n* Korean Beef Bulgogi Stew\n* Thai Red Curry Stew\n* Massaman Chicken Curry (Thai stew)\n\n**Hot Drinks:**\n* Masala Chai (Indian spiced tea)\n* Ginger Tea (Chinese tea with ginger)\n* Turmeric Milk (Indian bedtime beverage)\n* Vietnamese Egg Coffee\n\n**Mediterranean**\n\n**Soup:**\n* Avgolemono (Greek egg-lemon soup)\n* Gazpacho (Spanish cold tomato soup)\n* Bouillabaisse (French fish stew)\n* Ribollita (Italian Tuscan bread and vegetable soup)\n\n**Stew:**\n* Moussaka (Greek eggplant and ground beef casserole)\n* Paella (Spanish rice dish with seafood and vegetables)\n* Tagine (North African slow-cooked stew)\n* Italian Beef Stew with Polenta\n\n**Hot Drinks:**\n* Turkish Coffee (strong, unfiltered coffee)\n* Moroccan Mint Tea\n* Arabic Coffee (spiced with cardamom)\n* Salep (Turkish hot drink made with orchid root)"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 15,
+    "candidatesTokenCount": 281,
+    "totalTokenCount": 296
+  }
+}
 
-Note: Check `data/GoogleLLM.json` for final predicted foods.
 ```
 
->The complete project has been written in Haskell.
+> The complete project has been written in Haskell.
+```
 Basic Overview
 
 Haskell
