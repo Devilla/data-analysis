@@ -272,3 +272,4 @@ It facilitates consistent project management, automates dependency installation,
 ensures correct project building, defines executables and libraries, and configures
 test suites.
 Overall, it&#39;s crucial for managing, building, and testing Haskell projects effectively.
+This project is tested with BrowserStack
