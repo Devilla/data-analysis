@@ -1,4 +1,4 @@
-# Data Analisis for Meal Recommendation
+# Data Analysis for Meal Recommendation
 
 ## Commands:
 ```
